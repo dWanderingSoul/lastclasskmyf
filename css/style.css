@@ -1,11 +1,11 @@
+:root{
+    --twitter-color:#50b7fb;
+    --twitter-background:#e6ecf0;
+}
 *{
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    --twitter-color:#50b7fb;
-    --twitter-background:#e6ecf0;
 }
 .sidebarOption{
     display: flex;
@@ -43,7 +43,8 @@ body{
 body{
     display: flex;
     height: 100vh;
-    max-width: 1300px;
+    width: 100%;
+    /* max-width: 1300px; */
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;
@@ -63,9 +64,10 @@ body{
 .profile{
     flex: 0.5;
     border-right: 1px solid var(--twitter-background);
-    min-width: fit-content;
-    overflow-y: scroll;
+    /* min-width: fit-content; */
+    /* overflow-y: scroll; */
     width: 5%;
+
 }
 .profile__header{
     position: sticky;
